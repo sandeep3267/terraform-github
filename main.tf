@@ -45,7 +45,6 @@ resource "aws_security_group" "ec2_security_group" {
 
   # allow access on port 22
   ingress {
-    description      = "ssh access"
     from_port        = 
     to_port          = 
     protocol         = 
