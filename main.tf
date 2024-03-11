@@ -45,9 +45,9 @@ resource "aws_security_group" "ec2_security_group" {
 
   # allow access on port 22
   ingress {
-    from_port        = 
-    to_port          = 
-    protocol         = 
+    from_port        = 22
+    to_port          = 22
+    protocol         = "tcp"
     cidr_blocks      = 
   }
 
